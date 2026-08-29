@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background-color: #f4f7fb;
+  color: #1e293b;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  width: min(100% - 2rem, 68rem);
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.guest-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
+}
+
+.guest-card {
+  padding: 1.25rem;
+  border: 1px solid #dbe3ef;
+  border-radius: 0.75rem;
+  background-color: white;
+  box-shadow: 0 0.25rem 0.75rem rgb(15 23 42 / 8%);
+  cursor: pointer;
+}
+
+.guest-card p {
+  margin: 0;
+  color: #475569;
+  overflow-wrap: anywhere;
+}
+
+.guest-details {
+  max-width: 36rem;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  background-color: white;
+}
